@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pet Grooming Review</title>
+</head>
+
+<body>
+    <section>
+        <h1>Pet Grooming Review</h1>
+        <label for="stylist_select">Which grooming stylist are you reviewing?</label>
+        <select id="stylist_select">
+            <option value="b_joe">Bobby Joe</option>
+            <option value="l_scott">Linda Scott</option>
+            <option value="l_skywalker">Luke Skywalker</option>
+        </select>
+    </section>
+
+    <section>
+        <label for="client_name">What is your name?</label>
+        <input type="text" id="client_name" name="client_name" />
+    </section>
+
+    <section>
+        <label for="animal_type">What type of animal did you bring in?</label>
+        <div>
+            <input type="radio" id="animal_select1" name="animal_type" value="dog" /><label for="animal_select1">Dog</label>
+        </div>
+        <div>
+            <input type="radio" id="animal_select2" name="animal_type" value="cat" /><label for="animal_select2">Cat</label>
+        </div>
+        <div>
+            <input type="radio" id="animal_select3" name="animal_type" value="rabbit" /><label for="animal_select3">Rabbit</label>
+        </div>
+    </section>
+
+    <section>
+        <label for="treatment_type">What type of treamtment was your pet getting?</label>
+        <div>
+            <input type="checkbox" value="haircut" id="html_client_treatment1" name="html_client_treatment1" />
+            <label for="html_client_treatment1">Haircut</label>
+        </div>
+        <div>
+            <input type="checkbox" value="nailtrim" id="html_client_treatment2" name="html_client_treatment2" />
+            <label for="html_client_treatment2">Nail trim</label>
+        </div>
+        <div>
+            <input type="checkbox" value="earclean" id="html_client_treatment3" name="html_client_treatment3" />
+            <label for="html_client_treatment3">Ear Clean</label>
+        </div>
+    </section>
+
+    <section>
+        <label for="gender_type">What is the gender of your pet?</label>
+        <div>
+            <input type="checkbox" value="haircut" id="html_pet_male" name="html_pet_male" />
+            <label for="html_pet_male">Male</label>
+        </div>
+        <div>
+            <input type="checkbox" value="nailtrim" id="html_pet_female" name="html_pet_female" />
+            <label for="html_pet_female">Female</label>
+        </div>
+
+    </section>
+
+    <section>
+        <label for="client_rating">Out of five stars how would you rate your experience?</label>
+        <div>
+            <input type="radio" id="rate_option1" name="client_rating" value="one" /><label for="rate_option1">1/5</label>
+        </div>
+        <div>
+            <input type="radio" id="rate_option2" name="client_rating" value="two" /><label for="rate_option2">2/5</label>
+        </div>
+        <div>
+            <input type="radio" id="rate_option3" name="client_rating" value="three" /><label for="rate_option3">3/5</label>
+        </div>
+        <div>
+            <input type="radio" id="rate_option4" name="client_rating" value="four" /><label for="rate_option4">4/5</label>
+        </div>
+        <div>
+            <input type="radio" id="rate_option5" name="client_rating" value="five" /><label for="rate_option5">5/5</label>
+        </div>
+    </section>
+    <section>
+        <input type="submit" value="submit" />
+    </section>
+
+</body>
+
+</html>
